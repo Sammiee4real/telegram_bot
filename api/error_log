@@ -1,0 +1,399 @@
+[19-May-2020 19:11:43 Africa/Lagos] PHP Fatal error:  Cannot redeclare send_otp() (previously declared in /home/w156credit/public_html/api/config/validations.php:36) in /home/w156credit/public_html/api/config/database_functions.php on line 46
+[19-May-2020 18:15:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function validate_phone() in /home/w156credit/public_html/api/config/validations.php:6
+Stack trace:
+#0 /home/w156credit/public_html/api/validate_phone.php(1): require_once()
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/validations.php on line 6
+[19-May-2020 19:56:41 Africa/Lagos] PHP Warning:  preg_match(): Empty regular expression in /home/w156credit/public_html/api/config/validations.php on line 124
+[19-May-2020 20:14:11 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/config/validations.php on line 112
+[19-May-2020 20:14:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/w156credit/public_html/api/config/validations.php on line 113
+[26-May-2020 08:02:47 Africa/Lagos] PHP Recoverable fatal error:  Object of class mysqli_result could not be converted to string in /home/w156credit/public_html/api/config/validations.php on line 235
+[26-May-2020 09:04:46 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/config/validations.php on line 436
+[26-May-2020 09:04:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/w156credit/public_html/api/config/validations.php on line 437
+[26-May-2020 09:04:46 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/config/validations.php on line 484
+[26-May-2020 09:17:23 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function user_registration(), 9 passed in /home/w156credit/public_html/api/user_registration.php on line 21 and exactly 10 expected in /home/w156credit/public_html/api/config/database_functions.php:181
+Stack trace:
+#0 /home/w156credit/public_html/api/user_registration.php(21): user_registration('3069976671', '4', '22225553718', 'cloudware', '101', 'samuel', 'adebunmi', '08168509044', 'adebsholey4real...')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/database_functions.php on line 181
+[19-Jun-2020 15:13:15 Africa/Lagos] PHP Warning:  file_get_contents(http://...@gmail.com&amp;message=Please+enter+this+code%3A+73199+to+proceed+with+your+registration+on+whatsapp+with+156+Credits.+The+code+expires+in+30+minutes): failed to open stream: Connection timed out in /home/w156credit/public_html/api/config/validations.php on line 127
+[19-Jun-2020 15:14:24 Africa/Lagos] PHP Warning:  file_get_contents(http://...@gmail.com&amp;message=Please+enter+this+code%3A+18946+to+proceed+with+your+registration+on+whatsapp+with+156+Credits.+The+code+expires+in+30+minutes): failed to open stream: Connection timed out in /home/w156credit/public_html/api/config/validations.php on line 127
+[19-Jun-2020 15:17:29 Africa/Lagos] PHP Warning:  file_get_contents(http://...@gmail.com&amp;message=Please+enter+this+code%3A+84284+to+proceed+with+your+registration+on+whatsapp+with+156+Credits.+The+code+expires+in+30+minutes): failed to open stream: Connection timed out in /home/w156credit/public_html/api/config/validations.php on line 127
+[19-Jun-2020 15:23:17 Africa/Lagos] PHP Warning:  file_get_contents(http://developers.cloudsms.com.ng/api1.php?userid=92814362&amp;password=pass4adebunmi%&amp;type=5&amp;destination=08168509044&amp;sender=CLOUDSMS&amp;message=Please+enter+this+code%3A+72095+to+proceed+with+your+registration+on+whatsapp+with+156+Credits.+The+code+expires+in+30+minutes): failed to open stream: Connection timed out in /home/w156credit/public_html/api/config/validations.php on line 127
+[25-Jun-2020 13:20:40 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function send_email_otp() in /home/w156credit/public_html/api/validate_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/validate_email.php on line 8
+[25-Jun-2020 13:26:19 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function send_email_otp() in /home/w156credit/public_html/api/validate_email.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/validate_email.php on line 8
+[25-Jun-2020 13:45:03 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function send_otp(), 1 passed in /home/w156credit/public_html/api/validate_staff_no.php on line 11 and exactly 2 expected in /home/w156credit/public_html/api/config/validations.php:153
+Stack trace:
+#0 /home/w156credit/public_html/api/validate_staff_no.php(11): send_otp('08168509044')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/validations.php on line 153
+[29-Jun-2020 14:56:22 UTC] PHP Parse error:  syntax error, unexpected '=' in /home/w156credit/public_html/api/config/validations.php on line 166
+[02-Jul-2020 03:23:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/w156credit/public_html/api/paxful.php:33
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/paxful.php on line 33
+[02-Jul-2020 03:23:33 UTC] PHP Recoverable fatal error:  Object of class stdClass could not be converted to string in /home/w156credit/public_html/api/paxful.php on line 33
+[02-Jul-2020 03:48:37 UTC] PHP Warning:  Illegal string offset 'data' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:48:37 UTC] PHP Warning:  Illegal string offset 'methods' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:48:37 UTC] PHP Warning:  Illegal string offset 'name' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:50:08 UTC] PHP Warning:  Illegal string offset 'data' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:50:40 UTC] PHP Warning:  Illegal string offset 'data' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:51:14 UTC] PHP Warning:  Illegal string offset 'status' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 03:52:33 UTC] PHP Warning:  Illegal string offset 'status' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:10:24 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:11:18 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'user_name' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'user_name' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'user_name' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'user_name' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:12:42 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:19 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:33 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:13:49 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:01 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:14:50 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:15:20 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:29 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:16:53 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/w156credit/public_html/api/paxful.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/paxful.php on line 38
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'username' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'feedback_positive' in /home/w156credit/public_html/api/paxful.php on line 40
+[02-Jul-2020 04:18:58 UTC] PHP Warning:  Illegal string offset 'last_seen' in /home/w156credit/public_html/api/paxful.php on line 40
+[19-Jul-2020 17:34:49 Africa/Lagos] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/w156credit/public_html/api/config/validations.php:13
+Stack trace:
+#0 /home/w156credit/public_html/api/start_reg_with_phone.php(6): start_reg_with_phone('472834782349823...')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/validations.php on line 13
+[20-Jul-2020 03:23:43 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function new_accountno_validate(), 1 passed in /home/w156credit/public_html/api/validate_acct_no_version2.php on line 7 and exactly 3 expected in /home/w156credit/public_html/api/config/validations.php:62
+Stack trace:
+#0 /home/w156credit/public_html/api/validate_acct_no_version2.php(7): new_accountno_validate(NULL)
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/validations.php on line 62
+[20-Jul-2020 03:25:02 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function new_accountno_validate(), 1 passed in /home/w156credit/public_html/api/validate_acct_no_version2.php on line 7 and exactly 3 expected in /home/w156credit/public_html/api/config/validations.php:62
+Stack trace:
+#0 /home/w156credit/public_html/api/validate_acct_no_version2.php(7): new_accountno_validate(NULL)
+#1 {main}
+  thrown in /home/w156credit/public_html/api/config/validations.php on line 62
+[20-Jul-2020 03:47:29 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/config/validations.php on line 90
+[20-Jul-2020 03:47:29 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/w156credit/public_html/api/config/validations.php on line 91
+[20-Jul-2020 03:49:58 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/config/validations.php on line 90
+[20-Jul-2020 03:49:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/w156credit/public_html/api/config/validations.php on line 91
+[20-Jul-2020 08:13:42 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function send_otpv2() in /home/w156credit/public_html/api/validate_phone_for_otpv2.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/validate_phone_for_otpv2.php on line 11
+[20-Jul-2020 08:18:12 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function send_otpv2() in /home/w156credit/public_html/api/validate_phone_for_otpv2.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/validate_phone_for_otpv2.php on line 11
+[20-Jul-2020 09:36:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:36:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:36:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:36:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:36:11 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:39:28 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:39:28 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:39:28 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:39:28 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:39:28 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:44:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:44:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:44:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:44:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:44:24 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2028
+[20-Jul-2020 09:58:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 09:58:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 09:58:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 09:58:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 09:58:34 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:07:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:07:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:07:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:07:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:07:42 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:20:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:20:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:20:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:20:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:20:46 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:25:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:25:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:25:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:25:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[20-Jul-2020 10:25:58 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 2029
+[13-Aug-2020 07:19:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/w156credit/public_html/api/paxful.php on line 43
+[25-Aug-2020 04:54:40 UTC] PHP Fatal error:  Uncaught Error: Cannot access self:: when no class scope is active in /home/w156credit/public_html/api/paxful3.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/paxful3.php on line 16
+[25-Aug-2020 04:55:00 UTC] PHP Warning:  Use of undefined constant DIGEST_ALGORITHM - assumed 'DIGEST_ALGORITHM' (this will throw an Error in a future version of PHP) in /home/w156credit/public_html/api/paxful3.php on line 16
+[25-Aug-2020 04:55:00 UTC] PHP Warning:  hash_hmac(): Unknown hashing algorithm: DIGEST_ALGORITHM in /home/w156credit/public_html/api/paxful3.php on line 16
+[11-Sep-2020 12:56:27 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function get_loan_condition() in /home/w156credit/public_html/api/get_loan_condition.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/get_loan_condition.php on line 6
+[15-Sep-2020 20:45:50 UTC] PHP Warning:  Use of undefined constant coinbase_api_test - assumed 'coinbase_api_test' (this will throw an Error in a future version of PHP) in /home/w156credit/public_html/api/testing11.php on line 44
+[15-Sep-2020 20:45:59 UTC] PHP Warning:  Use of undefined constant coinbase_api_test - assumed 'coinbase_api_test' (this will throw an Error in a future version of PHP) in /home/w156credit/public_html/api/testing11.php on line 44
+[17-Sep-2020 07:31:32 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function get_loan_condition() in /home/w156credit/public_html/api/get_loan_condition.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/get_loan_condition.php on line 6
+[28-Sep-2020 18:01:27 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function get_loan_condition() in /home/w156credit/public_html/api/get_loan_condition.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/get_loan_condition.php on line 6
+[06-Nov-2020 14:55:26 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function get_loan_condition() in /home/w156credit/public_html/api/get_loan_condition.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/get_loan_condition.php on line 6
+[06-Nov-2020 14:56:33 Africa/Lagos] PHP Fatal error:  Uncaught Error: Call to undefined function get_loan_condition() in /home/w156credit/public_html/api/get_loan_condition.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/w156credit/public_html/api/get_loan_condition.php on line 6
+[15-Mar-2021 13:03:44 UTC] PHP Warning:  file_get_contents(https://api.telegram.org/bot1614986733:AAGrnwiZt_VplJb711VboHpbr0g8fZtPzsc/sendmessage?chat_id=&amp;text=Hello%2C+Welcome+to+OneFiveSix+Credit.%0A%0AWhat+will+you+like+to+do%3F%0APlease+reply+with+any+of+the+options+below%0A1.+Register%0A2.+Apply+for+a+loan%0A3.+View+existing+loans%0A4.+Manual+repayment%0A5.+Contact+us%0A6.+FAQs%0A): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/w156credit/public_html/api/telegram_webhook.php on line 91
+[15-Mar-2021 13:31:34 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:34 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:36 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:36 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:40 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:40 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:49 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:31:49 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:32:05 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:32:05 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:32:37 UTC] PHP Warning:  require_once(../db_connect.php): failed to open stream: No such file or directory in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 13:32:37 UTC] PHP Fatal error:  require_once(): Failed opening required '../db_connect.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/w156credit/public_html/api/telegram_webhook.php on line 3
+[15-Mar-2021 17:26:44 Africa/Lagos] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/w156credit/public_html/api/config/database_functions.php on line 1407
+[15-Mar-2021 17:26:44 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/telegram_webhook.php on line 36
+[15-Mar-2021 17:28:06 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/telegram_webhook.php on line 36
+[15-Mar-2021 17:28:34 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/telegram_webhook.php on line 36
+[15-Mar-2021 17:30:39 Africa/Lagos] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/w156credit/public_html/api/telegram_webhook.php on line 36
+[16-Mar-2021 10:39:49 Africa/Lagos] PHP Warning:  file_get_contents(https://api.telegram.org/bot1614986733:AAGrnwiZt_VplJb711VboHpbr0g8fZtPzsc/sendmessage?chat_id=1135428624&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/w156credit/public_html/api/telegram_webhook.php on line 67
+[16-Mar-2021 10:42:22 Africa/Lagos] PHP Warning:  file_get_contents(https://api.telegram.org/bot1614986733:AAGrnwiZt_VplJb711VboHpbr0g8fZtPzsc/sendmessage?chat_id=1135428624&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/w156credit/public_html/api/telegram_webhook.php on line 67
+[16-Mar-2021 10:46:17 Africa/Lagos] PHP Warning:  file_get_contents(https://api.telegram.org/bot1614986733:AAGrnwiZt_VplJb711VboHpbr0g8fZtPzsc/sendmessage?chat_id=1135428624&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/w156credit/public_html/api/telegram_webhook.php on line 67
+[16-Mar-2021 10:49:23 Africa/Lagos] PHP Warning:  file_get_contents(https://api.telegram.org/bot1614986733:AAGrnwiZt_VplJb711VboHpbr0g8fZtPzsc/sendmessage?chat_id=1135428624&amp;text=): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+ in /home/w156credit/public_html/api/telegram_webhook.php on line 67
+[16-Mar-2021 13:04:33 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:04:36 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:04:40 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:04:49 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:05:06 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:05:38 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:06:39 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:07:40 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:08:40 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:09:41 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 55 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(55): updateChatStage(1135428624, 'get_phone')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:10:42 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:10:44 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:10:48 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:10:57 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:11:13 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:11:45 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:12:45 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 51 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(51): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:13:45 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 50 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(50): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:14:46 Africa/Lagos] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function updateChatStage(), 2 passed in /home/w156credit/public_html/api/telegram_webhook.php on line 50 and exactly 3 expected in /home/w156credit/public_html/api/telegram_webhook.php:26
+Stack trace:
+#0 /home/w156credit/public_html/api/telegram_webhook.php(50): updateChatStage(1135428624, 'started')
+#1 {main}
+  thrown in /home/w156credit/public_html/api/telegram_webhook.php on line 26
+[16-Mar-2021 13:47:20 Africa/Lagos] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/w156credit/public_html/api/telegram_webhook.php on line 132
+[16-Mar-2021 13:47:23 Africa/Lagos] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/w156credit/public_html/api/telegram_webhook.php on line 160
+[16-Mar-2021 14:26:00 Africa/Lagos] PHP Warning:  Illegal string offset 'variable_json' in /home/w156credit/public_html/api/telegram_webhook.php on line 119
+[16-Mar-2021 14:33:56 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/w156credit/public_html/api/telegram_webhook.php on line 1
+[16-Mar-2021 14:33:58 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/w156credit/public_html/api/telegram_webhook.php on line 1
+[16-Mar-2021 14:34:03 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/w156credit/public_html/api/telegram_webhook.php on line 1
